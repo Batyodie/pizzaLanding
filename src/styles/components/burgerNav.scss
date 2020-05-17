@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Karma:300|Nunito:300,400,700');
+
+$sans: 'Karla', sans-serif;
+$font: 'Nunito', sans-serif;
+$serif: 'Karma', serif;
+
+$white: #FFFFFF;
+$purple: #CCB3D8;
+$blue: #A7CBF2;
+$yellow: #FFE98C;
+$green: #A5C495;
+$cream: #EFE9E3;
+$pink: #efbfbd;
+$dark: #261F1F;
+
+$ease: all .4s ease;
+$fast: all .2s ease-out;
+
+#navbar-icon1 {
+
+}
+
+.navbar-open-icon {
+
+}
+.line {
+  position: absolute;
+  left: 10px;
+  height: 3.5px;
+  width: 38px;
+  border-radius: 3px;
+  background: $pink;
+}
+
+
+.nav-main {
+  position: fixed;
+  background: black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: 1;
+  z-index: 4;
+  transition: $ease;
+}
+
+.close {
+  opacity: 0;
+  z-index: -10;
+  position: absolute;
+}
+.nodisplay {
+  display: none;
+}
+
+.nav {
+  margin-top: 40px;
+
+
+}
+.header__list__display{
+  display: block !important;
+}
+.nav-close-icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+
+}
+
+.icon-line {
+  position: absolute;
+  top: 1em;
+  width: 30px;
+  height: 4px;
+  border-radius: 5px;
+  background: white;
+  transform: rotate(45deg);
+}
+.transform {
+  transform: rotate(-45deg);
+}
+
+.nav-links  {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  align-content: space-between;
+
+}
+.nav-links .header__item {
+  margin-bottom: 10px;
+}
+.nav-links .header__list{
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.slide-out:hover:after {
+  width: 100%;
+}
+
+.nav-title {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: white;
+  font-size: 0.8em;
+  font-family: $sans;
+  font-weight: 700;
+  margin-bottom: 4em;
+  span {
+    padding-bottom: 15px;
+    border-bottom: 3px solid $white;
+  }
+}
