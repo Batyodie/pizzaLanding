@@ -320,6 +320,9 @@ color: red;
 font-size: 20px;
 }
 @media (max-width: 584px){
+    body{
+    overflow-x: hidden;
+    }
     .btn-modal{ 
         width: 300px;
     } 
