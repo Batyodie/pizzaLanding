@@ -7,11 +7,12 @@ let sticky = navbar.offsetTop;
 close.addEventListener('click', function() {
     menu.classList.toggle('close');
     open.classList.toggle('nodisplay');
-    navbar.style.display = 'none';
+    navbar.classList.remove('button-gamburger_open')
+
 });
 
 open.addEventListener('click', function() {
     menu.classList.toggle('close');
     open.classList.toggle('nodisplay');
-    navbar.style.display = 'none';
+    navbar.classList.toggle('button-gamburger_open')
 });

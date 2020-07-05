@@ -45,7 +45,7 @@ body{
 
 .header {
     font-family: var(--boldFont);
-    background-color: var(--globalColor);
+    background-color: #0e0e0e;
     margin: 0 auto;
     padding: var(--paddingContainer);
     display: grid;
@@ -284,7 +284,9 @@ body{
 .button-gamburger{
     display: none;
 }
-
+.button-gamburger_open {
+    display: block;
+}
 .menu{
     margin: 0 auto;
     padding: var(--paddingContainer);
